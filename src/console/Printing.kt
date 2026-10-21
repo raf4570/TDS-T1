@@ -1,6 +1,7 @@
+/*
 package console
 
-import Game
+import modle.Game
 import Piece
 
 
@@ -17,7 +18,7 @@ fun getFirstLine(size : Int): String {
     return str
 }
 
-fun writeGame(game: Game){
+fun writeGame(game: modle.Game){
     println(getFirstLine(game.boardSize.size))
     for(i in (0..<game.boardSize.size)) {
         println(getGameLine(game.boardSize.,i))
@@ -36,4 +37,4 @@ fun getGameLine(pieces: List<Piece>, line : Int){
 
     return str
 
-}
+}*/

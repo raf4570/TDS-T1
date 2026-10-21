@@ -1,0 +1,3 @@
+logic:
+main uses Game/input
+and output is used just to write to the user, only receives data and processes it to give to the user.
